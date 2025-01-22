@@ -101,7 +101,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
               ),
 
 
-
+              Dimens.boxHeight10,
               BlocConsumer<WeatherBloc, WeatherState>(
                   builder: (context, state) {
                     if (state is WeatherDataFetchSuccessfully) {
